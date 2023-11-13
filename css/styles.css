@@ -1,0 +1,48 @@
+button {
+    width:  10vh;
+    height: 3vh;
+    background-color: #ecac42;
+    border: none;
+    border-radius: 2vh;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 5vw;
+    row-gap: 5vh;
+}
+
+
+
+.item-card-wrapper {   
+    flex: 25vw;
+ 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+}
+
+img {
+    width: 15vw;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #1b222c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin:auto;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+}
