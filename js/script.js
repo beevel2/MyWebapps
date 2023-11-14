@@ -13,6 +13,6 @@ function purchase(item_id) {
 //        message: "Произошла неизвестная ошибка",
 //        buttons: [{"type":"close"}]
 //        })})
-    console.log(window)
+    console.log(window.Telegram.WebApp)
 }
 
