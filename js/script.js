@@ -8,10 +8,11 @@ function purchase(item_id) {
             message: data.message,
             buttons: [{"type":"close"}]
         })})
-    .catch(
+    .catch(error => {
     WebApp.showPopup({
         title  : "Ошибка",
         message: "Произошла неизвестная ошибка",
         buttons: [{"type":"close"}]
-        }))
+        })})
 }
+
