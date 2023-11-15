@@ -1,5 +1,5 @@
 function purchase(item_id) {
-   fetch(`http://127.0.0.1:8000/buy?user_id=${window.Telegram.WebApp.initDataUnsafe.user.id}&item=${item_id}`)
+   fetch(`http://62.217.182.108/buy?user_id=${window.Telegram.WebApp.initDataUnsafe.user.id}&item=${item_id}`)
    .then(response => response.json())
    .then(data => {
        window.Telegram.WebApp.showPopup({
